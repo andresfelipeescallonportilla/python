@@ -1,0 +1,30 @@
+# Dependencias del proyecto Python "Pet Manager"
+#
+# En Java había que copiar el .jar (mysql-connector-java) a la carpeta de
+# librerías de NetBeans. En Python el equivalente es instalar el conector
+# (driver) con pip:
+#
+#     pip install -r requirements.txt
+#
+# ---------------------------------------------------------------------------
+# Driver / manejador de MySQL (el equivalente al .jar de Java)
+# ---------------------------------------------------------------------------
+# Conector oficial de MySQL (el mismo equipo mantiene mysql-connector-java).
+mysql-connector-python>=8.0.33
+#
+# Alternativa 100% Python (por si prefieres no usar el binario oficial):
+#   pip install pymysql
+# El código usa el que esté instalado; si ambos están, gana mysql-connector-python.
+
+# ---------------------------------------------------------------------------
+# GUI
+# ---------------------------------------------------------------------------
+# Tkinter viene con Python en Windows y macOS (en Linux puede necesitar:
+#   sudo apt install python3-tk)
+# Gráficos de los reportes (sustituye a JFreeChart)
+matplotlib>=3.7.0
+
+# ---------------------------------------------------------------------------
+# Exportación a Excel (sustituye a Apache POI)
+# ---------------------------------------------------------------------------
+openpyxl>=3.1.0

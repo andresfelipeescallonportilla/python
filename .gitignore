@@ -1,0 +1,29 @@
+# Entorno de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+.Python
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Configuración local
+.env
+
+# Reportes generados por la aplicación
+reportes/
+*.xlsx
+
+# Archivos de la base de datos / logs
+*.log
+*.db
+
+# Sistema operativo / editores
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
