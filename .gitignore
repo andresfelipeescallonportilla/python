@@ -23,7 +23,9 @@ reportes/
 *.db
 
 # Sistema operativo / editores
-.vscode/
 .idea/
 .DS_Store
 Thumbs.db
+
+# Nota: .vscode/ NO se ignora a propósito, porque contiene launch.json y
+# settings.json con la configuración de depuración compartida del proyecto.
